@@ -1,0 +1,18 @@
+# ninja log v5
+93	161	6217083767363665	CMakeFiles/tester.dir/src/LibraryContext.cpp.obj	2b9d0b90026ad07b
+4	166	6217083767403663	CMakeFiles/tomographer.dir/src/LibraryContext.cpp.obj	394836d92ff1f545
+52	733	6217083772913704	CMakeFiles/tomographer.dir/src/StringUtils.cpp.obj	ad9ff981b971ab2d
+162	783	6217083773403686	CMakeFiles/tester.dir/src/StringUtils.cpp.obj	c2d07cdaef6ceb1b
+57	1529	6217083780913684	CMakeFiles/tomographer.dir/src/gdcmUtils.cpp.obj	985c25ca08a68439
+84	1557	6217083781133697	CMakeFiles/tomographer.dir/src/readDicoms.cpp.obj	52176ab909653794
+166	1787	6217083783573657	CMakeFiles/tester.dir/src/readDicoms.cpp.obj	259a664454e4a352
+70	2069	6217083786298828	CMakeFiles/tomographer.dir/src/datasetUtils.cpp.obj	80da4f1557b95b0a
+47	2179	6217083787468872	CMakeFiles/tomographer.dir/src/tomographer.cpp.obj	5622a8a9ad3bd1ee
+102	2210	6217083787798899	CMakeFiles/tester.dir/src/tomographer.cpp.obj	5663268e34037a50
+76	2219	6217083787908859	CMakeFiles/tester.dir/src/findAllDicomsInPath.cpp.obj	6f2517976b4ca6e
+64	2276	6217083788478823	CMakeFiles/tomographer.dir/src/findAllDicomsInPath.cpp.obj	88bf2c343c3a08da
+783	2281	6217083788528829	CMakeFiles/tester.dir/src/gdcmUtils.cpp.obj	9214f3146c21e015
+733	2593	6217083791658808	CMakeFiles/tester.dir/src/datasetUtils.cpp.obj	8b8c00de6162fa41
+2276	2667	6217083792338816	tomographer.dll	fde458c63162b6c5
+2276	2667	6217083792338816	tomographer.lib	fde458c63162b6c5
+2594	3270	6217083797318805	tester.exe	185548841dd91fab

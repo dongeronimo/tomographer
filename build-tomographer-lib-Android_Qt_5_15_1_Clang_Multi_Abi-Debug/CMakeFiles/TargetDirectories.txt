@@ -1,0 +1,4 @@
+C:/programacao/tomographer/build-tomographer-lib-Android_Qt_5_15_1_Clang_Multi_Abi-Debug/CMakeFiles/tomographer.dir
+C:/programacao/tomographer/build-tomographer-lib-Android_Qt_5_15_1_Clang_Multi_Abi-Debug/CMakeFiles/tester.dir
+C:/programacao/tomographer/build-tomographer-lib-Android_Qt_5_15_1_Clang_Multi_Abi-Debug/CMakeFiles/edit_cache.dir
+C:/programacao/tomographer/build-tomographer-lib-Android_Qt_5_15_1_Clang_Multi_Abi-Debug/CMakeFiles/rebuild_cache.dir

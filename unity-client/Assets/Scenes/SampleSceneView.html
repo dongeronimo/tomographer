@@ -1,0 +1,33 @@
+<style type="text/css">
+    html {
+        margin-left: -4px;
+        margin-right: -4px;
+        margin-top: -4px;
+        background-image: linear-gradient(DarkBlue, Indigo);
+    }
+    span {
+        font-size: 2vh
+    }
+    .path {
+        font-size: 0.9vh
+    }
+    .root-container {
+        width:100%;
+    }
+    .scrollable {
+        overflow-y: auto
+    }
+</style>
+
+<div class="root-container scrollable">
+    <div>
+        <span id="persistent-data-path" class="path"></span>
+    </div>
+    <div>
+        <span>Can read the file:</span> <span id="can-read-file"></span>
+    </div>
+    <div>
+        <span>Number of dicoms:</span> <span id="number-of-dicoms"></span>
+    </div>
+</div>
+

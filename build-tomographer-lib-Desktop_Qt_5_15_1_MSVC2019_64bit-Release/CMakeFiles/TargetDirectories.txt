@@ -1,0 +1,4 @@
+C:/programacao/tomographer/build-tomographer-lib-Desktop_Qt_5_15_1_MSVC2019_64bit-Release/CMakeFiles/tomographer.dir
+C:/programacao/tomographer/build-tomographer-lib-Desktop_Qt_5_15_1_MSVC2019_64bit-Release/CMakeFiles/tester.dir
+C:/programacao/tomographer/build-tomographer-lib-Desktop_Qt_5_15_1_MSVC2019_64bit-Release/CMakeFiles/edit_cache.dir
+C:/programacao/tomographer/build-tomographer-lib-Desktop_Qt_5_15_1_MSVC2019_64bit-Release/CMakeFiles/rebuild_cache.dir

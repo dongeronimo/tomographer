@@ -1,0 +1,345 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "libtomographer.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 48,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 52,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC  "
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "tomographer_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "C:/programacao/tomographer/tomographer-lib/includes"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/programacao/GDCM/Source/Common"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/programacao/build-GDCM-Android_Qt_5_15_1_Clang_Multi_Abi-Debug/Source/Common"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/programacao/GDCM/Source/DataStructureAndEncodingDefinition"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/programacao/GDCM/Source/MediaStorageAndFileFormat"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/programacao/GDCM/Source/MessageExchangeDefinition"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/programacao/GDCM/Source/DataDictionary"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/programacao/GDCM/Source/InformationObjectDefinition"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
+			],
+			"sysroot" : 
+			{
+				"path" : "C:/Users/lucia/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
+			}
+		}
+	],
+	"id" : "tomographer::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\programacao\\build-GDCM-Android_Qt_5_15_1_Clang_Multi_Abi-Debug\\bin\\libgdcmcharls.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\programacao\\build-GDCM-Android_Qt_5_15_1_Clang_Multi_Abi-Debug\\bin\\libgdcmCommon.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\programacao\\build-GDCM-Android_Qt_5_15_1_Clang_Multi_Abi-Debug\\bin\\libgdcmDICT.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\programacao\\build-GDCM-Android_Qt_5_15_1_Clang_Multi_Abi-Debug\\bin\\libgdcmDSED.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\programacao\\build-GDCM-Android_Qt_5_15_1_Clang_Multi_Abi-Debug\\bin\\libgdcmexpat.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\programacao\\build-GDCM-Android_Qt_5_15_1_Clang_Multi_Abi-Debug\\bin\\libgdcmIOD.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\programacao\\build-GDCM-Android_Qt_5_15_1_Clang_Multi_Abi-Debug\\bin\\libgdcmjpeg12.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\programacao\\build-GDCM-Android_Qt_5_15_1_Clang_Multi_Abi-Debug\\bin\\libgdcmjpeg16.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\programacao\\build-GDCM-Android_Qt_5_15_1_Clang_Multi_Abi-Debug\\bin\\libgdcmjpeg8.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\programacao\\build-GDCM-Android_Qt_5_15_1_Clang_Multi_Abi-Debug\\bin\\libgdcmMEXD.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\programacao\\build-GDCM-Android_Qt_5_15_1_Clang_Multi_Abi-Debug\\bin\\libgdcmMSFF.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\programacao\\build-GDCM-Android_Qt_5_15_1_Clang_Multi_Abi-Debug\\bin\\libgdcmopenjp2.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\programacao\\build-GDCM-Android_Qt_5_15_1_Clang_Multi_Abi-Debug\\bin\\libgdcmuuid.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\programacao\\build-GDCM-Android_Qt_5_15_1_Clang_Multi_Abi-Debug\\bin\\libgdcmzlib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\programacao\\build-GDCM-Android_Qt_5_15_1_Clang_Multi_Abi-Debug\\bin\\libsocketxx.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\programacao\\build-GDCM-Android_Qt_5_15_1_Clang_Multi_Abi-Debug\\bin\\libgdcmcharls.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\programacao\\build-GDCM-Android_Qt_5_15_1_Clang_Multi_Abi-Debug\\bin\\libgdcmDICT.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\programacao\\build-GDCM-Android_Qt_5_15_1_Clang_Multi_Abi-Debug\\bin\\libgdcmIOD.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\programacao\\build-GDCM-Android_Qt_5_15_1_Clang_Multi_Abi-Debug\\bin\\libgdcmDSED.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\programacao\\build-GDCM-Android_Qt_5_15_1_Clang_Multi_Abi-Debug\\bin\\libgdcmCommon.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\programacao\\build-GDCM-Android_Qt_5_15_1_Clang_Multi_Abi-Debug\\bin\\libgdcmzlib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\programacao\\build-GDCM-Android_Qt_5_15_1_Clang_Multi_Abi-Debug\\bin\\libgdcmexpat.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\programacao\\build-GDCM-Android_Qt_5_15_1_Clang_Multi_Abi-Debug\\bin\\libgdcmjpeg12.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\programacao\\build-GDCM-Android_Qt_5_15_1_Clang_Multi_Abi-Debug\\bin\\libgdcmjpeg16.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\programacao\\build-GDCM-Android_Qt_5_15_1_Clang_Multi_Abi-Debug\\bin\\libgdcmjpeg8.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-pthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-latomic -lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX",
+		"sysroot" : 
+		{
+			"path" : "C:/Users/lucia/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
+		}
+	},
+	"name" : "tomographer",
+	"nameOnDisk" : "libtomographer.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/tomographer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/LibraryContext.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/findAllDicomsInPath.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/gdcmUtils.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/StringUtils.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/datasetUtils.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/readDicoms.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}
